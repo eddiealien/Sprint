@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5001d7558a624f70beed0ccaf59abe2b" Name="Diagram1">
+        <EntityTypeShape EntityType="cursomvcModel.Aluno" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="cursomvcModel.Aluno_Materia" Width="1.5" PointX="5.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="cursomvcModel.assunto" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="cursomvcModel.Autor" Width="1.5" PointX="3" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="cursomvcModel.departamento" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="cursomvcModel.Endereco" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="cursomvcModel.materia" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="cursomvcModel.Referencia" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="cursomvcModel.ReferenciaAutor" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="cursomvcModel.Telefone" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="cursomvcModel.FK_aluno_assunto" ManuallyRouted="false" />
+        <AssociationConnector Association="cursomvcModel.FK_Aluno_departamento" ManuallyRouted="false" />
+        <AssociationConnector Association="cursomvcModel.FK_Aluno_Endereco" ManuallyRouted="false" />
+        <AssociationConnector Association="cursomvcModel.FK_Aluno_Materia_Aluno" ManuallyRouted="false" />
+        <AssociationConnector Association="cursomvcModel.FK_Telefone_Aluno" ManuallyRouted="false" />
+        <AssociationConnector Association="cursomvcModel.FK_Aluno_Materia_materia" ManuallyRouted="false" />
+        <AssociationConnector Association="cursomvcModel.FK_Referencia_assunto" ManuallyRouted="false" />
+        <AssociationConnector Association="cursomvcModel.FK_ReferenciaAutor_Autor" ManuallyRouted="false" />
+        <AssociationConnector Association="cursomvcModel.FK_ReferenciaAutor_Referencia" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
